@@ -1,0 +1,43 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: .3rem 1rem;
+}
+.todo-text {
+    flex: 1;
+    font-size: .9rem;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.todo-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.todo-btn-edit,
+.todo-btn-Delete{
+    display: inline-block;
+    padding: .5rem ;
+    cursor: pointer;
+    font-size: .85rem;
+    font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   border: none;
+   background-color: transparent;
+  text-transform: uppercase;
+}
+
+
+.todo-btn-edit {
+    color: rgb(0, 119, 255);
+}
+
+.todo-btn-Delete{
+    color: rgb(244, 51, 51);
+}

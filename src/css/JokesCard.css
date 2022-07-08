@@ -1,0 +1,59 @@
+.joke-card{
+    min-width: 300px;
+    width: 32%;
+    background-color: #00AFC1;
+}
+.jokes-card-id {
+    font-size: 1.5rem;
+    color: #00AFC1;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.jokes-card-joke {
+    font-size: 1rem;
+    color: #FFD124;
+    line-height: 1.5;
+    margin: .5rem o;
+ 
+
+
+}
+
+
+.jokes-card-punchline {
+    font-size: 1rem;
+    color: #FFD124;
+    line-height: 1.5;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  
+
+}
+
+
+.jokes-card-btn{
+    display: block;
+    text-align: center;
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #FFD124;
+    color: #fefefe;
+    border:none;
+    border-radius:3px;
+width: 100%;
+cursor: pointer;
+outline: none;
+padding: .8rem 1rem;
+padding-top: -4rem ;
+}
+
+.jokes-card-btn:active {
+    outline: none;
+opacity: .75;
+}
+
+.jokes-card-btn:hover{
+    background-color: #E2D784;
+}

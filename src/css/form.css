@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #555;
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  display: block;
+  resize: vertical;
+  border: 1px solid #ccc;
+  color: #555;
+  padding: .5rem 1rem;
+  outline: none;
+}
+
+.btn-submit  {
+  display: block;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  margin-top: 1.5rem;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fefefe;
+  outline: none;
+  cursor: pointer;
+}
+button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+
+.post-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.post-card {
+max-width: 400px;
+width: 100%;
+margin: 1rem;
+padding: 2rem;
+box-shadow:0 0 15px rgba(0, 0, 0, .2);
+border-radius: 10px;
+}
+
+.post-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #4caf50;
+  margin-bottom: 1rem;
+
+}
+
+.post-body{
+  font-size: .95rem;
+  font-weight: 300;
+  color: #1e1e1e;
+  line-height: 2;
+
+}
+
+.post-user{
+  margin-top: 1rem;
+  text-align: right;
+  color: #777;
+  font-weight: 500;
+  font-size: .8rem;
+}
+
+.refine{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+
+}
+
+ .ui-button-green{
+width: 50%;
+float: right;
+background-color: #4caf50;
+margin: 0.5rem 0;
+padding: 0.6rem 1rem;
+text-align: center;
+cursor: pointer;
+border-radius: 4px;
+outline: none;
+}
+.ui-button-green:active {
+  outline: none;
+opacity: .75;
+}
+
+.ui-button-green:hover{
+  background-color: #436b44;
+}
+.ui-button-red{
+width: 50%;
+  background-color:rgb(245, 237, 237);
+  margin: 0.5rem 0;
+  padding: 0.6rem 1rem;
+text-align: center;
+cursor: pointer;
+border-radius: 4px;
+outline: none;
+  }
+  .ui-button-red:active {
+    outline: none;
+opacity: .75;
+}
+
+.ui-button-red:hover{
+    background-color:rgb(56, 21, 21);
+}
+.blue{
+  background-color:rgb(245, 237, 237);
+  border: none;
+}
+.blue:hover{
+  background-color:rgb(56, 21, 21);
+}
+.bluet{
+  background-color:#4caf50;
+  border: none;
+}
+.bluet:hover{
+  background-color: #436b44;
+}
