@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Heading, HStack, IconButton } from "@chakra-ui/react";
 import React, { useState } from "react";
-import SubscriptionSection from "../components/subscriptionSection";
+import SubscriptionSection from "../components/SubscriptionSection";
 import image1 from "../assets/img/image1.png";
 import icon1 from "../assets/img/icon1.png";
 import { IoGridOutline, IoGrid , IoListOutline, IoList} from "react-icons/io5";
